@@ -1,0 +1,58 @@
+.SearchBar{
+     padding: 2rem ;
+     border: 0.5 rem solid black;
+     display: flex;
+     justify-content: center;  
+}
+#search{
+    height: 2rem;
+    width: 40rem;
+    text-align: center;
+    border: 0.1rem solid  blue;
+    border-radius: 0.3rem;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 20rem;
+    background-color: white;
+    box-shadow: 0px 4px 8px 3px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.heading{
+    color: black;
+    margin-top: 0.2rem;    
+}
+.image{
+    position: relative;
+    height:8.7rem;
+    width: 20rem;
+    cursor: pointer;
+}
+.card-body{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    gap: 10px;
+    margin: 0.5rem;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    padding-left:4rem;
+    padding-right: 4rem;
+}
